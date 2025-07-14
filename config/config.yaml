@@ -1,0 +1,9 @@
+server:
+  listen_addr: ":8080"
+
+jwt:
+  secret: "supersecret"
+  expiry_minutes: 60
+
+log:
+  level: "info"
